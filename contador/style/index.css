@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 255, 255, 0.485);
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container h1 {
+    font-size: 5rem;
+}
+.buttons {
+    display: flex;
+    margin: 5% auto 0 ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    width: 35%;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(255, 113, 113, 0.923);
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
